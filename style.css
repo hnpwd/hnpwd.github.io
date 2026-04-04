@@ -1,0 +1,61 @@
+body {
+  background: #fec;
+  color: #321;
+  font-family: georgia, serif;
+  font-size: large;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+header, footer {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 0;
+}
+header div {
+  margin: 0.5em 0;
+}
+header nav {
+  margin: 1em 0 2em 0;
+}
+footer p {
+  max-width: 40em;
+  margin: 1em auto;
+}
+nav span {
+  margin: 0 0.25em;
+}
+hr {
+  margin: 2em 0 1.5em 0;
+  border: 0;
+  border-bottom: 0.1em dotted #986;
+}
+a:link {
+  color: #600;
+}
+a:visited {
+  color: #300;
+}
+a:focus, a:hover, a:active {
+  color: #900;
+}
+main {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+section {
+  background: #edb;
+  border-radius: 0.5em;
+  border: thin solid #986;
+  padding: 1em 1.25em;
+  overflow-wrap: break-word;
+}
+section h2 {
+  margin: 0;
+}
+section h3 {
+  margin: 0 0 0.75em 0;
+  font-size: 1em;
+}
